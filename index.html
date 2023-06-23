@@ -1,112 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Design Agency Landing Page</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .hero {
-      background-image: url('hero-image.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
-
-    .services {
-      padding: 40px;
-      text-align: center;
-    }
-
-    .services h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-
-    .services p {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-
-    .footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 36px;
-      }
-
-      .hero p {
-        font-size: 16px;
-      }
-
-      .services h2 {
-        font-size: 28px;
-      }
-
-      .services p {
-        font-size: 14px;
-      }
-    }
-  </style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Whitney:wght@500&family=Noto%20Sans&display=swap">
 </head>
-<body>
-  <div class="header">
-    <h1>Design Agency</h1>
-    <p>We create beautiful designs that make a difference</p>
-  </div>
-
-  <div class="hero">
-    <h1>Welcome to our Design Agency</h1>
-    <p>We specialize in creating stunning designs for web and print.</p>
-  </div>
-
-  <div class="services">
-    <h2>Our Services</h2>
-    <p>We offer a wide range of design services to meet your needs:</p>
-    <ul>
-      <li>Website Design</li>
-      <li>Graphic Design</li>
-      <li>Logo Design</li>
-      <li>Print Design</li>
-    </ul>
-  </div>
-
-  <div class="footer">
-    <p>&copy; 2023 Design Agency. All rights reserved.</p>
-  </div>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

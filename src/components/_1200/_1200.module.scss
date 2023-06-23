@@ -1,6 +1,6 @@
 .moveUp.moveUp {
   left: 78%;
-  top: 76.3413%;
+  top: 154.5812%;
 }
 .vector.vector {
   position: initial;
@@ -11,7 +11,7 @@
 }
 .moveDown.moveDown {
   left: 75.5%;
-  top: 76.3413%;
+  top: 154.5812%;
 }
 .vector2.vector2 {
   position: initial;
@@ -22,7 +22,7 @@
 }
 .moveUp2.moveUp2 {
   left: 77.8333%;
-  top: 56.755%;
+  top: 114.9215%;
 }
 .vector3.vector3 {
   position: initial;
@@ -33,7 +33,7 @@
 }
 .moveDown2.moveDown2 {
   left: 75.3333%;
-  top: 56.755%;
+  top: 114.9215%;
 }
 .vector4.vector4 {
   position: initial;
@@ -44,7 +44,7 @@
 }
 .moveUp3.moveUp3 {
   left: 77.6667%;
-  top: 25.9858%;
+  top: 52.6178%;
 }
 .vector5.vector5 {
   position: initial;
@@ -55,7 +55,7 @@
 }
 .moveDown3.moveDown3 {
   left: 75.1667%;
-  top: 25.9858%;
+  top: 52.6178%;
 }
 .vector6.vector6 {
   position: initial;
@@ -200,54 +200,247 @@
   background-color: #272727;
   overflow: hidden;
 }
-.frame41967 {
+.group41493 {
   position: absolute;
-  left: 135px;
-  top: 210px;
-  width: min-content;
-  height: min-content;
-  align-items: flex-start;
-  gap: 180px;
+  left: 0;
+  top: 0;
+  width: 1200px;
+  height: 762px;
+  overflow: visible;
 }
-.frame41966 {
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.shadow {
+  opacity: 0.7;
+  position: absolute;
+  right: 305.2011px;
+  top: calc(50% - -152.7075px);
+  width: 308.1271px;
+  height: 313.1373px;
+  background-image:/* webpackIgnore: true */ url('/assets/shadow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-50%);
+}
+.main {
+  position: absolute;
+  right: 373.934px;
+  top: calc(50% - -124.1334px);
+  width: 183.3419px;
+  height: 254.7372px;
+  background-image:/* webpackIgnore: true */ url('/assets/main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-50%);
+}
+.flyingIPhone12MockupLeftViewLa {
+  position: absolute;
+  right: 378.7879px;
+  top: calc(50% - -119.8259px);
+  width: 168.3113px;
+  height: 238.6106px;
+  background-image:/* webpackIgnore: true */ url('/assets/flyingIPhone12MockupLeftViewLa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-50%);
+}
+.vector213 {
+  position: absolute;
+  right: 148.7973px;
+  top: calc(50% - -324.6665px);
+  width: 496.2027px;
+  height: 96.6672px;
+  overflow: visible;
+  filter: blur(5px);
+  transform: translateY(-50%);
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.screenShot2023613At12501 {
+  position: absolute;
+  right: -27.903px;
+  top: calc(50% - 4.5384px);
+  width: 482.1772px;
+  height: 686.2483px;
+  background-image:/* webpackIgnore: true */ url('/assets/screenShot2023613At12501.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('/assets/maskGroup.svg');
+  mask-image:/* webpackIgnore: true */ url('/assets/maskGroup.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: 159.94216918945312px 43.66254806518555px;
+  mask-position: 159.94216918945312px 43.66254806518555px;
+  -webkit-mask-size: 164.62527465820312px 620.9136352539062px;
+  mask-size: 164.62527465820312px 620.9136352539062px;
+  transform: translateY(-50%);
+}
+.subtract {
+  position: absolute;
+  left: 908.6753px;
+  top: 260.7771px;
+  width: 148.4649px;
+  height: 109.5341px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.frame41963 {
+  position: absolute;
+  left: 130px;
+  top: 78px;
   width: min-content;
   height: min-content;
   flex-direction: column;
   align-items: flex-start;
-  gap: 116px;
+  gap: 60px;
 }
-.group41492 {
-  position: relative;
-  width: 385px;
-  height: 97px;
+.frame41964 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
-.rectangle2603 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 69.0722%;
-  width: 385px;
-  height: 30px;
-  background-color: #d9d9d9;
+.kojodatchiV1 {
+  color: #fff;
+  font-size: 75px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
 }
-.rectangle2604 {
-  position: absolute;
-  left: 0;
-  right: 25.974%;
-  top: 69.0722%;
-  bottom: 0;
-  width: 285px;
-  height: 30px;
-  background-color: #d9d9d9;
+.aSmartPlantPotForGrowingPotato {
+  color: #fff;
+  font-size: 21px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 533px;
+  height: min-content;
+  flex-direction: column;
 }
-.rectangle2605 {
-  width: 165px;
-  height: 53px;
+.frame2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 20px;
+}
+.KojoPlant {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock3 {
+  margin-top: 0;
+}
+.labelWrapper {
+  font-size: 17px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: italic;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.unnamed {
+  color: #fff;
+  font-size: 21px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.TomodachiFriend {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock4 {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock5 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock6 {
+  margin-top: 0;
+}
+.labelWrapper2 {
+  font-size: 17px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label2 {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: italic;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.frame42 {
+  width: 240px;
+  height: min-content;
+  place-content: center;
+  padding: 20px 30px;
+  border-radius: 10px;
   background-color: #ff6e6e;
 }
-.rectangle2602 {
-  width: 365px;
-  height: 344px;
-  background-color: #d9d9d9;
+.joinTheWaitlist {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: Noto Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
 }
