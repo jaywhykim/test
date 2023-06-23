@@ -14,8 +14,8 @@ function App() {
   };
 
   return (
-    <div>
-      <header>
+    <div className="container">
+      <header className="header">
         <h1>Design Agency</h1>
         <p>We create beautiful designs that make a difference</p>
       </header>
@@ -27,12 +27,22 @@ function App() {
 
       <section className="services">
         <h2>Our Services</h2>
-        <ul>
-          <li>Website Design</li>
-          <li>Graphic Design</li>
-          <li>Logo Design</li>
-          <li>Print Design</li>
-        </ul>
+        <div className="service-item">
+          <h3>Website Design</h3>
+          <p>We design and develop beautiful and functional websites.</p>
+        </div>
+        <div className="service-item">
+          <h3>Graphic Design</h3>
+          <p>We create visually appealing graphics for various purposes.</p>
+        </div>
+        <div className="service-item">
+          <h3>Logo Design</h3>
+          <p>We craft unique and memorable logos for your brand.</p>
+        </div>
+        <div className="service-item">
+          <h3>Print Design</h3>
+          <p>We design high-quality print materials for your business.</p>
+        </div>
       </section>
 
       <section className="contact">
@@ -72,7 +82,7 @@ function App() {
         )}
       </section>
 
-      <footer>
+      <footer className="footer">
         <p>&copy; 2023 Design Agency. All rights reserved.</p>
       </footer>
     </div>
