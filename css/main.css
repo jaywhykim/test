@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1722_6984 {
+  width: 100%;
+  height: 1547px;
+  background: rgba(39,39,39,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_6989 {
+  background: url("../images/v1722_6989.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 249px;
+  left: 1332px;
+  overflow: hidden;
+}
+.v1722_6990 {
+  width: 280px;
+  height: 236px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 86px;
+  left: 637px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v1722_7225 {
+  width: 930px;
+  height: 344px;
+  background: url("../images/v1722_7225.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 180px;
+  opacity: 1;
+  position: absolute;
+  top: 210px;
+  left: 135px;
+  overflow: hidden;
+}
+.v1722_7224 {
+  width: 385px;
+  height: 266px;
+  background: url("../images/v1722_7224.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 116px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_7223 {
+  width: 385px;
+  height: 97px;
+  background: url("../images/v1722_7223.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_7215 {
+  width: 385px;
+  height: 30px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_7216 {
+  width: 285px;
+  height: 30px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 67px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_7217 {
+  width: 165px;
+  height: 53px;
+  background: rgba(255,110,110,1);
+  opacity: 1;
+  position: absolute;
+  top: 213px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1722_7214 {
+  width: 365px;
+  height: 344px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 565px;
+  overflow: hidden;
+}
