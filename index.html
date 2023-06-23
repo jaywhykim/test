@@ -1,14 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Whitney:wght@500&family=Noto%20Sans&display=swap">
+<html>
+<head>
+  <title>Design Agency Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: #ffd700;
+      color: #333;
+      padding: 80px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .services {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .services p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .services .service-item {
+      display: inline-block;
+      width: 30%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .services .service-item h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .services .service-item p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .services .service-item {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<body>
+  <div class="header">
+    <h1>Design Agency</h1>
+    <p>We create beautiful designs that make a difference</p>
+  </div>
+
+  <div class="hero">
+    <h1>Welcome to our Design Agency</h1>
+    <p>We specialize in creating stunning designs for web and print.</p>
+  </div>
+
+  <div class="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <h3>Website Design</h3>
+      <p>We design and develop beautiful and functional websites.</p>
+    </div>
+    <div class="service-item">
+      <h3>Graphic Design</h3>
+      <p>We create visually appealing graphics for various purposes.</p>
+    </div>
+    <div class="service-item">
+      <h3>Logo Design</h3>
+      <p>We craft unique and memorable logos for your brand.</p>
+    </div>
+    <div class="service-item">
+      <h3>Print Design</h3>
+      <p>We design high-quality print materials for your business.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 Design Agency. All rights reserved.</p>
+  </div>
+</body>
 </html>
