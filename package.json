@@ -1,0 +1,11 @@
+{
+    "name": "colorful-landing-page",
+    "version": "1.0.0",
+    "scripts": {
+      "deploy": "vercel"
+    },
+    "devDependencies": {
+      "vercel": "^latest"
+    }
+  }
+  
