@@ -13,7 +13,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #333;
+  background-color: #000;
   padding: 20px;
   text-align: center;
 }
@@ -24,9 +24,10 @@ body {
 
 /* Main sections */
 .main {
-  background-color: #222;
+  background-color: #000;
   color: #fff;
   padding: 40px 0;
+  text-align: center;
 }
 
 .section {
@@ -39,63 +40,14 @@ body {
 }
 
 .section--intro {
-  text-align: center;
+  background-color: #222;
 }
 
 .section--features {
-  background-color: #444;
+  background-color: #333;
 }
 
 .feature-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-}
-
-.feature-list__item {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-/* CTA section */
-.section--cta {
-  text-align: center;
-}
-
-.form__group {
-  margin-bottom: 20px;
-}
-
-.form input[type="text"],
-.form input[type="email"] {
-  padding: 10px;
-  width: 100%;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ff5f6d;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #ff4354;
-}
-
-.btn--submit {
-  background-color: #ff4354;
-}
-
-/* Footer */
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
 }
