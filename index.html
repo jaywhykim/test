@@ -1,72 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Launch</title>
+  <title>Kojodatchi</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header class="header">
-    <h1 class="header__title">Product Launch</h1>
-  </header>
-
-  <main class="main">
-    <section class="section section--intro">
-      <div class="container">
-        <h2 class="section__title">Introducing Our New Product</h2>
-        <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada enim
-          vitae
-          magna fringilla, vel viverra sapien luctus.</p>
-        <a href="#form" class="btn">Get Early Access</a>
-      </div>
-    </section>
-
-    <section class="section section--image">
-      <div class="container">
-        <img src="product-image.png" alt="Product Image">
-      </div>
-    </section>
-
-    <section class="section section--features">
-      <div class="container">
-        <h2 class="section__title">Key Features</h2>
-        <ul class="feature-list">
-          <li class="feature-list__item">Feature 1</li>
-          <li class="feature-list__item">Feature 2</li>
-          <li class="feature-list__item">Feature 3</li>
-        </ul>
-      </div>
-    </section>
-
-  
-    <section class="section section--cta" id="form">
-      <div class="container">
-        <h2 class="section__title">Get Early Access</h2>
-        <form action="https://formspree.io/f/meqbjgwl" method="POST">
-        <label>
-          Your email:
-          <input type="email" name="email">
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-      </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2023 Product Launch. All rights reserved.</p>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">Kojodatchi</div>
     </div>
-  </footer>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="//github.io/jo_geek" target="_blank">Home</a>
+      <a href="http://stackoverflow.com/users/4084003/" target="_blank">About</a>
+      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Learn</a>
+    </div>
+  </div>
+  
+
+  <section>
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque ultricies diam, et faucibus ipsum
+      ullamcorper eget. Sed sed pulvinar tortor.</p>
+  </section>
+
 
 </body>
-
 </html>
