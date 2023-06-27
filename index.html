@@ -1,15 +1,62 @@
-<form
-  action="https://formspree.io/f/meqbjgwl"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Launch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Product Launch</h1>
+  </header>
+
+  <main class="main">
+    <section class="section section--intro">
+      <div class="container">
+        <h2 class="section__title">Introducing Our New Product</h2>
+        <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada enim
+          vitae
+          magna fringilla, vel viverra sapien luctus.</p>
+        <a href="#form" class="btn">Get Early Access</a>
+      </div>
+    </section>
+
+    <section class="section section--features">
+      <div class="container">
+        <h2 class="section__title">Key Features</h2>
+        <ul class="feature-list">
+          <li class="feature-list__item">Feature 1</li>
+          <li class="feature-list__item">Feature 2</li>
+          <li class="feature-list__item">Feature 3</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="form">
+      <div class="container">
+        <h2 class="section__title">Get Early Access</h2>
+        <form class="form" action="submit-form.php" method="POST">
+          <div class="form__group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form__group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <button type="submit" class="btn btn--submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Product Launch. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
