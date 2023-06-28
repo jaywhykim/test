@@ -175,7 +175,7 @@ body {
 
 .scaling-image {
   width: 100%;
-  height: auto;
+ 
 }
 
 @media (max-width:375px) {
@@ -185,6 +185,11 @@ body {
   .scaling-image {
     width: 100%;
   } 
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
 }
 
 @media (max-width:768px) {
@@ -192,7 +197,7 @@ body {
     flex-direction: column;
   }
   .scaling-image {
-    width: 70%;
+    width: 80%;
   } 
   .hero-image {
     display: flex;
