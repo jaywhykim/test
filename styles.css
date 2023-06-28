@@ -182,7 +182,10 @@ body {
   .hero-content {
     flex-direction: column;
   }
-  }
+  .scaling-image {
+    width: 100%;
+  } 
+}
 
 @media (max-width:768px) {
   .hero-content {
