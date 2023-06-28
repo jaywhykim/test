@@ -13,7 +13,7 @@ body {
 
 .nav-container {
   height: 60px;
-  width: 1200px;
+  width: 100%;
   background: rgba(37, 37, 37, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -147,13 +147,13 @@ body {
 
 .hero-top {
   background-color: #212121;
-  height: 75%;
+  height: 55%;
   width: 100%
 }
 
 .hero-bottom {
   background-color: #93806C;
-  height: 25%;
+  height: 45%;
   width: 100%
 }
 
@@ -176,11 +176,18 @@ body {
   height: auto;
 }
 
+@media (max-width:375px) {
+  .hero-content {
+    flex-direction: row;
+  }
+}
 
-
-
-
-
+@media (max-width:768px) {
+  .hero-content {
+    flex-direction: column;
+  
+  }
+}
 
      
 
