@@ -185,7 +185,16 @@ body {
 @media (max-width:768px) {
   .hero-content {
     flex-direction: column;
-  
+  }
+
+  .hero-content {
+    width: 768px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 200px;
   }
 }
 
