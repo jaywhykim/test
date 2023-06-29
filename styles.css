@@ -214,7 +214,7 @@ body {
 @media (max-width:768px) {
   .hero {
     height: auto;
-    padding-top: 100px;
+    padding-top: 75px;
   }
   
   .hero-image {
