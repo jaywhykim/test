@@ -213,20 +213,14 @@ body {
 
 @media (max-width:768px) {
   .hero {
-    height: 1200px;
+    height: auto;
+    padding-top: 100px;
   }
- 
-  
   
   .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;  
-  }
-
-  .hero-content {
-    flex-direction: column;
-    height: auto;
   }
 
   .hero-background {
@@ -249,13 +243,18 @@ body {
     font-size: 35px;
     padding-right: 0%;
   }
-}
+
 .header-content {
   margin-bottom: 60px;
 }
 .value-prop {
   background-color: #000;
   height: 100vh;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column; 
+}
 }
 
 
