@@ -216,9 +216,7 @@ body {
     height: 1200px;
   }
  
-  .header {
-    padding-right: 10%;
-  }
+  
   
   .hero-image {
     display: flex;
@@ -254,7 +252,7 @@ body {
 @media (max-width:1065px) {
   .header {
     font-size: 35px;
-    padding-right: 30%;
+    padding-right: 0%;
   }
 }
 
