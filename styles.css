@@ -236,17 +236,12 @@ body {
     flex-direction: column;
     z-index: -1;
     top: 0;
-  }
-  
+  } 
   .hero-top {
     background-color: #212121;
     height: 75%;
     width: 100%;
-  }
-  
- 
- 
-  
+  }  
 }
 
 @media (max-width:1065px) {
@@ -255,7 +250,9 @@ body {
     padding-right: 0%;
   }
 }
-
+.header-content {
+  margin-bottom: 60px;
+}
 .value-prop {
   background-color: #000;
   height: 100vh;
