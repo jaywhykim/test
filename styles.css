@@ -81,7 +81,7 @@ body {
   display: none;
 }
 
-@media (max-width:375px) {
+@media (max-width:900px) {
   .nav > .nav-btn {
     display: flex;
     justify-content: center;
