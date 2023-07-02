@@ -471,6 +471,6 @@ video {
 .form__field{
   &:required,&:invalid { box-shadow:none; }
 }
-
+}
 
 
