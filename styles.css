@@ -179,58 +179,46 @@ body {
   height: 100%;
 }
 
-button {
+.btn-push {
   position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
+  top: 0px;
+  font-family: "Open Sans";
   text-decoration: none;
-  font-size: inherit;
-  font-family: inherit;
-  &.learn-more {
-    font-weight: 600;
-    color: #382b22;
-    text-transform: uppercase;
-    padding: 1.25em 2em;
-    background: #FFC1B5;
-    border: 2px solid #C2554F;
-    border-radius: 0.75em;
-    transform-style: preserve-3d;
-    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
-    &::before {
-      position: absolute;
-      content: '';
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #FE8A80;
-      border-radius: inherit;
-      box-shadow: 0 0 0 2px #C2554F, 0 0.625em 0 0 #AB9982;
-      transform: translate3d(0, 0.75em, -1em);
-      transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-    }
-    &:hover {
-      background: #FFC1B5;
-      transform: translate(0, 0.25em);
-      &::before {
-        box-shadow: 0 0 0 2px #C2554F, 0 0.5em 0 0 #AB9982;
-        transform: translate3d(0, 0.5em, -1em);
-      }
-    }
-    &:active {
-      background: #FFC1B5;
-      transform: translate(0em, 0.75em);
-      &::before {
-        box-shadow: 0 0 0 2px #b18597, 0 0 #AB9982;
-        transform: translate3d(0, 0, -1em);
-      }
-    }
-  }
+  font-size: 25px;
+  background: #f7f7f7;
+  padding: 15px 50px;
+  margin: 0 10px;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px #c4c4c4;
+  -moz-box-shadow: 0px 5px 0px #c4c4c4;
+  -ms-box-shadow: 0px 5px 0px #c4c4c4;
+  -o-box-shadow: 0px 5px 0px #c4c4c4;
+  box-shadow: 0px 5px 0px #c4c4c4;
+  color: #222;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}
+/*==========  Active State  ==========*/
+.btn-push:active {
+  position: relative;
+  top: 5px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
 }
 
 .hero-video {
@@ -316,61 +304,7 @@ video {
     height: 100%;
     object-fit: cover;
   }
-  button {
-    margin-left: 5%;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    font-size: inherit;
-    font-family: inherit;
-    &.learn-more {
-      font-weight: 600;
-      color: #382b22;
-      text-transform: uppercase;
-      padding: 1.25em 2em;
-      background: #FFC1B5;
-      border: 2px solid #C2554F;
-      border-radius: 0.75em;
-      transform-style: preserve-3d;
-      transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
-      &::before {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #FE8A80;
-        border-radius: inherit;
-        box-shadow: 0 0 0 2px #C2554F, 0 0.625em 0 0 #AB9982;
-        transform: translate3d(0, 0.75em, -1em);
-        transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
-      }
-      &:hover {
-        background: #FFC1B5;
-        transform: translate(0, 0.25em);
-        &::before {
-          box-shadow: 0 0 0 2px #C2554F, 0 0.5em 0 0 #AB9982;
-          transform: translate3d(0, 0.5em, -1em);
-        }
-      }
-      &:active {
-        background: #FFC1B5;
-        transform: translate(0em, 0.75em);
-        &::before {
-          box-shadow: 0 0 0 2px #b18597, 0 0 #AB9982;
-          transform: translate3d(0, 0, -1em);
-        }
-      }
-    }
-  }
-}
+  
   
 @media (min-width: 501px) and (max-width: 800px) {
   .header {
