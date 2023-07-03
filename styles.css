@@ -427,8 +427,8 @@ video {
 }
 
 .icon img {
-  max-width: 35%;
-  height: auto;
+  max-width: 100px;
+  height: 100px;
 }
 
 /* Media query for screen widths between 501px and 800px */
@@ -441,8 +441,8 @@ video {
     margin: 100px 0 100px 0;
   }
   .icon img {
-    max-width: 30%;
-    height: auto;
+    max-width: 90px;
+    height: 90px;
   }
 }
 
@@ -455,7 +455,6 @@ video {
     margin: 50px 0 50px 0;
   }
   .icon img {
-    max-width: 25%;
-    height: auto;
-  }
+    max-width: 80px;
+    height: 80px;
 }
