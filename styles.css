@@ -439,7 +439,10 @@ video {
   .value-prop {
 
     margin: 100px 0 100px 0;
-
+  }
+  .icon img {
+    max-width: 30%;
+    height: auto;
   }
 }
 
@@ -449,8 +452,10 @@ video {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .value-prop {
-
     margin: 50px 0 50px 0;
-   
+  }
+  .icon img {
+    max-width: 25%;
+    height: auto;
   }
 }
