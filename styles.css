@@ -515,15 +515,27 @@ video {
   .body1-content {
     display: flex;
     flex-direction: column; 
+  }
+    .body1-image {
+      width: auto;
+    }
+    .body1 {
+      padding: 100px 0 100px 0;
+    }
 
   }
-}
+
 
 @media (max-width: 500px) {
   .body1-content {
     display: flex;
     flex-direction: column; 
-
+  }
+  .body1-image {
+    width: 90%;
+  }
+  .body1 {
+    padding: 100px 0 100px 0;
   }
 }
 
