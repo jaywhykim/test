@@ -315,11 +315,10 @@ video {
   }
   
   .paragraph {
-   
     margin-bottom: 50px;
     font-family: 'Noto Sans', sans-serif;
     padding-right: 20%;
-    margin: 10px 0 50px 5%;
+    margin: 10px 0 50px 20px;
   }
   
   .hero-image {
@@ -496,7 +495,7 @@ video {
 .paragraph {
   margin-bottom: 50px;
   font-family: 'Noto Sans', sans-serif;
-  padding-right: 20%;
+  padding-left: 20px;
   margin: 10px 0 50px 5%;
 }
 
