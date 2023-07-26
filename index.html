@@ -1,94 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kojodatchi</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page - Hero Section</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom CSS styles here */
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 0 0;
+        }
+
+        .hero-content {
+            margin-bottom: 30px;
+        }
+
+        /* New styles for video container */
+        .hero-video {
+            width: 50%; /* Video is 50% width in desktop view */
+            height: 50%;
+            border-radius: 30px;
+            overflow: hidden;
+            border: 2px solid #212427;
+            margin: 10% 5% 0 0;
+            border-radius: 0 30px 30px 30px;
+        }
+
+        .hero-video video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .order-md-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75%;
+        }
+
+        /* Media query for mobile view */
+        @media (max-width: 767.98px) {
+            .hero-video {
+                width: 100%; /* Video spans across the screen in mobile view */
+                margin: 10% 0 0 0;
+            }
+        }
+
+        /* Feature section styles */
+        .feature-section {
+            padding: 50px 0;
+        }
+
+        .feature-item {
+            margin-bottom: 30px;
+        }
+
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Media query for small devices */
+        @media (max-width: 575.98px) {
+            .feature-icon {
+                font-size: 28px;
+            }
+        }
+
+        /* Sticky and Frosted Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+    </style>
 </head>
+
 <body>
-<div class="nav-container">
-  <div class="nav">
-        <input type="checkbox" id="nav-check">
-    <div class="nav-header">
-      <div class="nav-title">Kojodatchi</div>
-    </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
- 
-    
-    <div class="nav-links">
-      <a href="//github.io/jo_geek" target="_blank">Home</a>
-      <a href="http://stackoverflow.com/users/4084003/" target="_blank">About</a>
-      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Learn</a>
-    </div>
-  </div>
-</div>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-md-center">
+                <div class="col-md-6 order-md-1 hero-content">
+                    <h1>Your Product Name</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique nisi eu risus
+                        aliquet, eu volutpat dui venenatis.</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="col-md-6 order-md-2">
+                    <div class="hero-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assets/kojodatchi.mp4" type="video/mp4">
+                            <!-- Add more <source> elements for other video formats if needed -->
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Feature Section -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <img src="path/to/feature1-image.jpg" alt="Feature 1 Image" class="img-fluid">
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h3>Feature 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <img src="path/to/feature2-image.jpg" alt="Feature 2 Image" class="img-fluid">
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h3>Feature 2</h3>
+                    <p>Phasellus tristique nisi eu risus aliquet, eu volutpat dui venenatis.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <img src="path/to/feature3-image.jpg" alt="Feature 3 Image" class="img-fluid">
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h3>Feature 3</h3>
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
- <section class="hero">
-
-  <div class="hero-background">
-    <div class="hero-top"></div>
-    <div class="hero-bottom"></div>
-  </div>
-
-  <div class="hero-content">
-    <div class="header-content">
-      <h1 class="header">Connect with your plants like never before</h1>
-        <p class="paragraph">Smart home aeroponics for growing potatoes with eco-friendly awareness.</p>
-         <a href="#" class="hero-button">Pre-order yours now</a>
-     </div>
-     <div class="hero-image">
-      <img src="assets/kojodatchi.png" alt="growing instrument" class="scaling-image">
-     </div>  
-  </div>
-
-
-
-
-
-
-  <!---
-  <div class="grey-middle">
-  </div>
-  <div class="beige-trapezoid">
-  </div>
-
-
-    <div class="hero-content">
-      <div class="content-container">
-      <h1 class="hero-header">Connect with your plants like never before</h1>
-      <p class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <a href="#" class="hero-button">Pre-order yours now</a>
-      </div>
-
-    <div id="kojo-ui">
-      <img src="assets/kojo-ui.png" alt="iphone interface" class="scaling-image">
-    </div>
-
-
-    <div id="kojo-hardware">
-      <img src="assets/kojo-hardware.png" alt="growing instrument" class="scaling-image">
-    </div> 
-    </div> 
-  -->
-
-
-  </section>
-
-  <section class="value-prop">
-    
-
-
-  </section>
-
-
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
